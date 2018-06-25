@@ -1,0 +1,135 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: lightgray;
+}
+header {
+    color: blue;
+    font-size: 3vmin;
+    
+}
+
+main {
+    display: flex;
+}
+section {
+    border: 1px black solid;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1px;
+    background-color: black;
+    
+    
+}
+
+article {
+    border: 1px blue solid;
+    background-color: darkblue;
+    box-sizing: border-box;
+    width: 12vw;
+    height: 8vh;
+    margin: 1px;
+    font-size: 2vmin;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    font-size-adjust: inherit;
+    min-width: 50px;
+    min-height: 50px;
+    overflow-y: scroll;
+    transition-timing-function: ease-in;
+    transition: .35s;
+    padding: 3%;
+    
+    
+}
+
+article:hover{
+    background-color: darkcyan;
+    border: 1px solid gold;
+}
+
+#displayPicture {
+    height: 200px;
+    width: 200px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.topRow{
+    border: 1px solid black;
+    margin-bottom: 10px;
+    font-size: 2vmin;
+    padding:5%;
+}
+
+.topRow:hover{
+    background-color: darkblue;
+}
+
+#playWrapper{
+    margin: 10px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: row-reverse;
+    width: 80vw;
+    justify-content: space-around; 
+    border-radius: 10mm;
+    padding: 5pt;
+}
+
+#responseWrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 50vw;
+    font-size: 80%;
+}
+.correctResponse{
+    
+    background-color:green;
+    color: gold;
+    border: 1px solid gold;
+}
+.incorrectResponse{
+    
+   
+    background-color: red;
+    color: black;
+    border: 1px solid orangered;
+}
+button {
+    border-radius: 10%;
+    border: 1px solid black;
+    width: 25vw;
+    position: relative;
+    left: 5%;
+}
+button:hover {
+    transition-timing-function: ease-in;
+    transition: .25s;
+    box-shadow:   5px 5px rgba(58, 56, 56, 0.815);
+    background-color: rgba(129, 130, 0, 0.521);
+
+}
+
+button:active {
+    background-color: red;
+    position: relative;
+    top: 2px;
+   
+
+}
+input {
+    width: 25vw;
+    position: relative;
+    left: 5%;
+}
+input:hover {
+    background-color: rgba(146, 147, 161, 0.25);
+}

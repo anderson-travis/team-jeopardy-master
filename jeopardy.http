@@ -1,0 +1,9 @@
+GET http://jservice.io/api/random/
+###
+GET http://jservice.io/api/clues
+###
+GET http://jservice.io/api/category/?id=3170
+###
+GET https://api.duckduckgo.com/?q=simpsons+characters&format=json&pretty=1
+###
+GET https://api.duckduckgo.com/?q=Indiana&format=json&pretty=1
